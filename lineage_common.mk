@@ -46,3 +46,6 @@ PRODUCT_PACKAGES += \
 
 # Touch
 include hardware/google/pixel/touch/device.mk
+
+# Face Unlock
+include vendor/google/faceunlock/device.mk
