@@ -137,8 +137,8 @@
     <bool translatable="false" name="config_cbrs_supported">true</bool>
 
     <!-- IWLAN-->
-    <string name="config_wlan_data_service_package">com.google.android.iwlan</string>
-    <string name="config_wlan_network_service_package">com.google.android.iwlan</string>
+    <string translatable="false" name="config_wlan_data_service_package">com.google.android.iwlan</string>
+    <string translatable="false" name="config_wlan_network_service_package">com.google.android.iwlan</string>
     <bool name="config_wlan_data_service_conn_persistence_on_restart">false</bool>
 
     <!-- Boolean indicating USSD over IMS is allowed.
@@ -232,7 +232,7 @@
      </string-array>
 
     <!-- Auto-brightness sensor type string -->
-    <string name="config_displayLightSensorType">"com.google.sensor.auto_brightness"</string>
+    <string translatable="false" name="config_displayLightSensorType">"com.google.sensor.auto_brightness"</string>
 
     <!-- Default list of files pinned by the Pinner Service -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
