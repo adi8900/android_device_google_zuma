@@ -18,10 +18,11 @@
 DERP_BUILDTYPE=Official
 DERP_VERSION_APPEND_TIME_OF_DAY=true
 EXTRA_UDFPS_ICONS=true
+TARGET_SUPPORTS_QUICK_TAP := false
 
 # Pixel Cam
 PRODUCT_PACKAGES += \
-	GoogleCamera
+    GoogleCamera
 
 -include vendor/google_devices/zuma/proprietary/telephony/device-vendor.mk
 include device/google/zuma/device.mk
