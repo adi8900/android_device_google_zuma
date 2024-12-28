@@ -24,6 +24,9 @@ TARGET_SUPPORTS_QUICK_TAP := false
 PRODUCT_PACKAGES += \
     GoogleCamera
 
+# ViperFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 -include vendor/google_devices/zuma/proprietary/telephony/device-vendor.mk
 include device/google/zuma/device.mk
 
